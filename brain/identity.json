@@ -1,0 +1,18 @@
+{
+    "channel_name": "Tech Deep Dive",
+    "niche": "Deep learning, advanced computing, and semiconductor architecture",
+    "target_audience": "Software engineers, tech enthusiasts, and computer science students",
+    "tone": "Educational, precise, and fast-paced",
+    "allowed_topic_zones": [
+        "AI chips (Nvidia, AMD, Apple Silicon)",
+        "CPU/GPU architectures",
+        "Deep learning breakthroughs (like AlexNet, Transformers)",
+        "Hardware optimization"
+    ],
+    "unwanted_topic_zones": [
+        "Consumer tech reviews (phones, laptops)",
+        "Programming tutorials",
+        "Gaming benchmarks without architecture analysis",
+        "Broader AI hype without technical depth"
+    ]
+}

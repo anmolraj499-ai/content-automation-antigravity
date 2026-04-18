@@ -1,0 +1,23 @@
+{
+  "project_name": "how_gpus_work",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "What exactly is a GPU? And why do we need them instead of just using our CPU for everything?",
+      "visual_text": "What is a GPU?",
+      "visual_type": "title_slide"
+    },
+    {
+      "id": 2,
+      "narration": "Unlike a CPU, which has a few very fast and complex cores, a GPU has thousands of smaller, simpler cores designed to do math in parallel.",
+      "visual_text": "CPU vs GPU\n• Few fast cores\n• Thousands of small cores",
+      "visual_type": "bullet_slide"
+    },
+    {
+      "id": 3,
+      "narration": "This makes them perfect for rendering graphics, and incredibly powerful for training artificial intelligence models.",
+      "visual_text": "Perfect for AI and Graphics",
+      "visual_type": "title_slide"
+    }
+  ]
+}
