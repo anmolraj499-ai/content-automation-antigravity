@@ -20,8 +20,8 @@ def call_openrouter(sys_prompt: str, user_prompt: str, is_json: bool = False) ->
     Calls the OpenRouter API with the desired model.
     """
     api_key = os.environ.get("OPENROUTER_API_KEY")
-    # Default to Gemini 1.5 Pro if not specified
-    model = os.environ.get("OPENROUTER_MODEL", "google/gemini-pro-1.5")
+    # Default to GPT OSS 120b Free if not specified
+    model = os.environ.get("OPENROUTER_MODEL", "openai/gpt-oss-120b:free")
     
     if not api_key:
         raise ValueError("OPENROUTER_API_KEY not found in .env")
